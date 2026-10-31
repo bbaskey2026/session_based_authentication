@@ -1,0 +1,13 @@
+# Environment files (Never commit real credentials or secrets)
+.env
+.env.*
+*.env
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build outputs & logs
+dist/
+build/
+*.log
